@@ -64,9 +64,9 @@ $('#iptGenerate').on('click', function(){
     $('.block .time').text($('#select_time').val())
 })
 
-$('.header .close').click(function(){
+$('#header-close').click(function(){
     alert('又不是真的，点了也没用~')
 })
-$('.return').click(function(){
+$('#return').click(function(){
     alert('又不是真的，返回也没用~')
 })
