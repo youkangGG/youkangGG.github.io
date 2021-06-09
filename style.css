@@ -79,10 +79,10 @@ p.text, p.text span{
     font-family: "Microsoft JhengHei";
     font-size: 14px;
 }
+
 p.text b{
     font-weight: 600;
 }
-
 
 
 
@@ -114,3 +114,53 @@ p.text b{
     font-size: 12px;
 }
 
+
+
+
+/* 
+    MODULE
+*/
+.module{
+    position: absolute;
+    top:0;left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.module > *{
+    padding: 14px;
+}
+
+.module .module-head{
+    color: #000;
+    font-size: 12px;
+}
+
+.iptGroup{
+    margin-bottom: 14px;
+}
+.iptGroup .iptlabel{
+    display:inline-block;
+    width: 100px;
+    text-align: right;
+}
+.iptGroup .iptSelector{
+    display:inline-block;
+    width: 100px;
+}
+
+.iptSubmit{
+    padding:28px 0 14px 0; 
+    text-align: center;
+}
+
+.iptSubmit a{
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#fff;
+    background-color: #2594f0;
+}
