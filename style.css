@@ -79,7 +79,9 @@ p.text, p.text span{
     font-family: "Microsoft JhengHei";
     font-size: 14px;
 }
-
+p.text b{
+    font-weight: 600;
+}
 
 
 
