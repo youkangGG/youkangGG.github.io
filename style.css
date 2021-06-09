@@ -6,7 +6,7 @@
 }
 
 div.header{
-    padding: 1em;
+    padding: 16px;
     color: #fff;
     background-color: #2594f0;
 }
@@ -15,9 +15,9 @@ div.header .close{
     position: relative;
     top:2px;
     display: inline-block;
-    width: 1em;
-    height: 1em;
-    margin-right:1em;
+    width: 16px;
+    height: 16px;
+    margin-right:16px;
     background-size: cover;
     background-image: url(./assets/cc-close.png);
     
@@ -25,4 +25,32 @@ div.header .close{
 
 div.header .navtxt{
     display: inline-block;
+}
+
+
+
+
+div.block{
+    padding: 12px;
+}
+
+div.block .bg{
+    height: 139px;
+    background-image: url(./assets/bg.jpg);
+    background-size:100% 100%;
+    background-position:center;
+}
+
+div.block .bg .reserved{
+    height: 32px;
+    width: 60px;
+    background-image: url(./assets/green.png);
+    background-size:100% 100%;
+    background-position:center;
+}
+div.block .bg .reserved .bgtxt{
+    padding-top: 4px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
 }
