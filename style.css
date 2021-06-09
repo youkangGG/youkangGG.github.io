@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     border:0;
-    font-size: 17px;
+    font-size:18px;
 }
 
 div.header{
@@ -12,11 +12,15 @@ div.header{
 }
 
 div.header .close{
+    position: relative;
+    top:2px;
     display: inline-block;
     width: 1em;
     height: 1em;
+    margin-right:1em;
     background-size: cover;
     background-image: url(./assets/cc-close.png);
+    
 }
 
 div.header .navtxt{
