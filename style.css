@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+div.header{
+    padding: 1em;
+    color: #fff;
+    background-color: #2594f0;
+}
+
+div.header .close{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: cover;
+    background-image: url(./assets/cc-close.png);
+}
+
+div.header .navtxt{
+    display: inline-block;
+}
